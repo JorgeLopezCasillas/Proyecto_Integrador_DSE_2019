@@ -25,7 +25,7 @@ void hal_entry(void)
             g_timer1.p_api->counterGet(g_timer1.p_ctrl, &counts);
             // Check if 500ms has elapsed => This should be a helper function at some point
             // Need to look if the PBCLK settings are stored in a define somewhere...
-            if (counts > (1*COUNT_PER_MILLISECOND))
+            if (counts > (10*COUNT_PER_MILLISECOND))
             {
                 Tim10ms--;
                 if(Tim10ms==0)
