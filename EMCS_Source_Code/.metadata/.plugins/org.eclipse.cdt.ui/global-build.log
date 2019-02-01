@@ -1,23 +1,9 @@
 Extracting support files...
-14:27:27 **** Incremental Build of configuration Debug for project EMCS_SoftwareProject ****
+14:35:25 **** Incremental Build of configuration Debug for project EMCS_SoftwareProject ****
 make -j12 all 
-'Building file: ../src/main_thread_entry.c'
-'Invoking: Cross ARM C Compiler'
-C:\Renesas\Synergy\e2studio_v6.2.1_ssp_v1.5.0\eclipse\/../\Utilities\\/isdebuild arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g3 -D_RENESAS_SYNERGY_ -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy_cfg\ssp_cfg\bsp" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy_cfg\ssp_cfg\driver" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy\ssp\inc" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy\ssp\inc\bsp" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy\ssp\inc\bsp\cmsis\Include" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy\ssp\inc\driver\api" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy\ssp\inc\driver\instances" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\src" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\src\synergy_gen" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy_cfg\ssp_cfg\framework\el" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy\ssp\inc\framework\el" -I"D:\Documentos\RepoProyectoIntegrador\Proyecto_Integrador_DSE_2019\EMCS_Source_Code\EMCS_SoftwareProject\synergy\ssp\src\framework\el\tx" -std=c99 -MMD -MP -MF"src/main_thread_entry.d" -MT"src/main_thread_entry.o" -c -o "src/main_thread_entry.o" -x c "../src/main_thread_entry.c"
-'Finished building: ../src/main_thread_entry.c'
-' '
-'Building target: EMCS_SoftwareProject.elf'
-'Invoking: Cross ARM C Linker'
-arm-none-eabi-gcc @"EMCS_SoftwareProject.elf.in"
-'Finished building target: EMCS_SoftwareProject.elf'
-' '
-'Invoking: Cross ARM GNU Create Flash Image'
-arm-none-eabi-objcopy -O srec "EMCS_SoftwareProject.elf"  "EMCS_SoftwareProject.srec"
 'Invoking: Cross ARM GNU Print Size'
 arm-none-eabi-size --format=berkeley "EMCS_SoftwareProject.elf"
    text	   data	    bss	    dec	    hex	filename
   25552	    128	  11068	  36748	   8f8c	EMCS_SoftwareProject.elf
-'Finished building: EMCS_SoftwareProject.srec'
 'Finished building: EMCS_SoftwareProject.siz'
-' '
 ' '
