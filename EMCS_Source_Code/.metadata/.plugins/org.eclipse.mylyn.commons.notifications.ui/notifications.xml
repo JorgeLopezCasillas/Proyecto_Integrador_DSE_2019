@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notifications>
+<event id="org.eclipse.mylyn.builds.ui.events.PlanStatusChanged">
+<action selected="false" sink="org.eclipse.mylyn.builds.ui.sink.View"/>
+<action selected="true" sink="org.eclipse.mylyn.commons.notifications.sink.Popup"/>
+</event>
+<event id="com.renesas.e2studio.synergy.smartdemo.notificationevent">
+<action selected="false" sink="org.eclipse.mylyn.builds.ui.sink.View"/>
+<action selected="false" sink="org.eclipse.mylyn.commons.notifications.sink.Popup"/>
+</event>
+<event id="org.eclipse.recommenders.news.rcp.event.newNewsItems">
+<action selected="false" sink="org.eclipse.mylyn.builds.ui.sink.View"/>
+<action selected="true" sink="org.eclipse.mylyn.commons.notifications.sink.Popup"/>
+</event>
+<event id="org.eclipse.mylyn.builds.ui.events.BuildServiceChanged">
+<action selected="true" sink="org.eclipse.mylyn.builds.ui.sink.View"/>
+<action selected="false" sink="org.eclipse.mylyn.commons.notifications.sink.Popup"/>
+</event>
+</notifications>

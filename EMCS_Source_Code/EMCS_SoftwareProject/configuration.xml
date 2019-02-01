@@ -134,6 +134,10 @@
       <description>General Purpose Timer: Provides=[Timer ,GPT]</description>
       <originalPack>Renesas.Synergy.1.5.0.pack</originalPack>
     </component>
+    <component apiversion="" class="Express Logic" condition="" group="all" subgroup="tx" variant="" vendor="Renesas" version="1.5.0">
+      <description>Express Logic ThreadX: Provides=[ThreadX]</description>
+      <originalPack>Renesas.Synergy.1.5.0.pack</originalPack>
+    </component>
   </synergyComponentSelection>
   <synergyIcuConfiguration/>
   <synergyMessagingConfiguration/>
@@ -150,8 +154,8 @@
     <module id="module.driver.fmi_on_fmi.0">
       <property id="module.driver.fmi.name" value="g_fmi"/>
     </module>
-    <module id="module.driver.timer_on_gpt.1373753948">
-      <property id="module.driver.timer.name" value="g_timer1"/>
+    <module id="module.driver.timer_on_gpt.1068755473">
+      <property id="module.driver.timer.name" value="g_timer0"/>
       <property id="module.driver.timer.channel" value="0"/>
       <property id="module.driver.timer.mode" value="module.driver.timer.mode.mode_periodic"/>
       <property id="module.driver.timer.shortest_pwm_signal" value="module.driver.timer.mode.shortest_pwm_signal_disabled"/>
@@ -168,11 +172,19 @@
       <property id="module.driver.timer.irq_ipl" value="board.icu.common.irq.disabled"/>
     </module>
     <context id="_hal.0">
+      <stack module="module.driver.cgc_on_cgc.0"/>
       <stack module="module.driver.fmi_on_fmi.0"/>
       <stack module="module.driver.elc_on_elc.0"/>
       <stack module="module.driver.ioport_on_ioport.0"/>
-      <stack module="module.driver.cgc_on_cgc.0"/>
-      <stack module="module.driver.timer_on_gpt.1373753948"/>
+    </context>
+    <context id="rtos.threadx.thread.988157198">
+      <property id="_symbol" value="main_thread"/>
+      <property id="rtos.threadx.thread.name" value="Main Thread"/>
+      <property id="rtos.threadx.thread.stack" value="2048"/>
+      <property id="rtos.threadx.thread.priority" value="6"/>
+      <property id="rtos.threadx.thread.autostart" value="rtos.threadx.thread.autostart.enabled"/>
+      <property id="rtos.threadx.thread.timeslice" value="10"/>
+      <stack module="module.driver.timer_on_gpt.1068755473"/>
     </context>
     <config id="config.driver.cgc">
       <property id="config.driver.cgc.param_checking_enable" value="config.driver.cgc.param_checking_enable.bsp"/>
@@ -186,6 +198,7 @@
     <config id="config.driver.ioport">
       <property id="config.driver.ioport.checking" value="config.driver.ioport.checking.system"/>
     </config>
+    <config id="config.threadx.thread"/>
     <config id="config.driver.gpt">
       <property id="config.driver.gpt.param_checking_enable" value="config.driver.gpt.param_checking_enable.bsp"/>
     </config>

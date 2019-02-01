@@ -264,6 +264,9 @@ Synergy Configuration
     Parameter Checking: Default (BSP)
     
   HAL
+    Instance "g_cgc CGC Driver on r_cgc"
+      Name [Fixed]: g_cgc
+      
     Instance "g_fmi FMI Driver on r_fmi"
       Name: g_fmi
       
@@ -273,11 +276,16 @@ Synergy Configuration
     Instance "g_ioport I/O Port Driver on r_ioport"
       Name [Fixed]: g_ioport
       
-    Instance "g_cgc CGC Driver on r_cgc"
-      Name [Fixed]: g_cgc
-      
-    Instance "g_timer1 Timer Driver on r_gpt"
-      Name: g_timer1
+  Thread "Main Thread"
+    Symbol: main_thread
+    Name: Main Thread
+    Stack size (bytes): 2048
+    Priority: 6
+    Auto start: Enabled
+    Time slicing interval (ticks): 10
+    
+    Instance "g_timer0 Timer Driver on r_gpt"
+      Name: g_timer0
       Channel: 0
       Mode: Periodic
       Duty Cycle Range (only applicable in PWM mode): Shortest: 2 PCLK, Longest: (Period - 1) PCLK

@@ -1,0 +1,3 @@
+GENERATED_FILE_NAME=bsp_pin_cfg
+TEMPLATE_URL=platform\:/plugin/com.renesas.cdt.synergy.pinmapper.input/template/bsp_pin_cfg_h.template
+eclipse.preferences.version=1
