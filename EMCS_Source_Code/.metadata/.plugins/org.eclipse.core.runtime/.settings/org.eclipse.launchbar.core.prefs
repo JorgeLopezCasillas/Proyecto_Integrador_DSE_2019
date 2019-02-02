@@ -1,14 +1,9 @@
-LaunchTargetManager/configs/EMCS_SoftwareProject\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
-LaunchTargetManager/configs/GUIApp\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
-LaunchTargetManager/configs/sf_message_configurator=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:GUIApp Debug,org.eclipse.launchbar.core.descriptorType.default\:sf_message_configurator
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:EMCS_SoftwareProject\ Debug/activeLaunchMode=debug
-org.eclipse.launchbar.core.descriptorType.default\:EMCS_SoftwareProject\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:GUIApp\ Debug/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:GUIApp\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:sf_message_configurator/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:sf_message_configurator/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

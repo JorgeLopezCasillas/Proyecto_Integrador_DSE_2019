@@ -1,13 +1,13 @@
 synergy/ssp/src/framework/tes/dave2d/dave_viewport.o: ../synergy/ssp/src/framework/tes/dave2d/dave_viewport.c \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_types.h \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_errorcodes.h \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_base.h \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_math.h \
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_types.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_errorcodes.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_base.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_math.h \
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h \
 ../synergy/ssp/src/framework/tes/dave2d/dave_intern.h \
 ../synergy/ssp/src/framework/tes/dave2d/dave_registermap.h \
 ../synergy/ssp/src/framework/tes/dave2d/dave_intern.h \
@@ -25,23 +25,23 @@ D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Sourc
 ../synergy/ssp/src/framework/tes/dave2d/dave_intern.h \
 ../synergy/ssp/src/framework/tes/dave2d/dave_viewport.h
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_types.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_types.h:
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_errorcodes.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_errorcodes.h:
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_base.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_base.h:
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_math.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes/dave_math.h:
 
-D:\\Documentos\\RepoProyectoIntegrador\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
+D:\\Documentos\\Proyecto_Integrador_DSE_2019\\EMCS_Source_Code\\EMCS_SoftwareProject\\synergy\\ssp\\inc\\framework\\tes\\dave_driver.h:
 
 ../synergy/ssp/src/framework/tes/dave2d/dave_intern.h:
 

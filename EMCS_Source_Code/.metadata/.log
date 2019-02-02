@@ -4529,3 +4529,52 @@ org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Se ha encontrado contenid
 
 !ENTRY com.tasking.util 2 0 2019-02-01 15:46:26.269
 !MESSAGE Input file not found: "". Using first of 1 alternatives: "file:/C:/Renesas/Synergy/e2studio_v6.2.1_ssp_v1.5.0/internal/projectgen/arm/1.5/pinmapping/PinCfgR7FS7G27xxxxxxFC.xml"
+
+!ENTRY com.renesas.cdt.synergy.packs 2 0 2019-02-02 10:32:10.287
+!MESSAGE Warning parsing file '/D:/Documentos/Proyecto_Integrador_DSE_2019/EMCS_Source_Code/EMCS_SoftwareProject/.module_descriptions/Renesas%23%23Framework%20Services%23%23all%23%23sf_el_nx_crypto%23%23%23%231.5.0.xml': cvc-complex-type.2.4.a: Se ha encontrado contenido no válido a partir del elemento 'includes'. Se esperaba uno de '{functions, init}'.
+!STACK 0
+org.xml.sax.SAXParseException; cvc-complex-type.2.4.a: Se ha encontrado contenido no válido a partir del elemento 'includes'. Se esperaba uno de '{functions, init}'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:452)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3230)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:1790)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:740)
+	at com.sun.org.apache.xerces.internal.jaxp.validation.DOMValidatorHelper.beginNode(DOMValidatorHelper.java:277)
+	at com.sun.org.apache.xerces.internal.jaxp.validation.DOMValidatorHelper.validate(DOMValidatorHelper.java:244)
+	at com.sun.org.apache.xerces.internal.jaxp.validation.DOMValidatorHelper.validate(DOMValidatorHelper.java:190)
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:109)
+	at javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.renesas.cdt.synergy.packs.model.ModuleUtils.parseDocument(ModuleUtils.java:445)
+	at com.renesas.cdt.synergy.packs.model.ModuleUtils.parseDocument(ModuleUtils.java:423)
+	at com.renesas.cdt.synergy.packs.model.ModuleUtils.parseModuleDescription(ModuleUtils.java:414)
+	at com.renesas.cdt.synergy.packs.model.ModuleUtils.parseModuleDescriptionFile(ModuleUtils.java:214)
+	at com.renesas.cdt.synergy.packs.model.ModuleUtils.getPossibleModuleDescriptionDocument(ModuleUtils.java:388)
+	at com.renesas.cdt.synergy.packs.model.ModuleUtils.getModulesListForAvailableModulesEvent(ModuleUtils.java:344)
+	at com.renesas.cdt.synergy.packs.model.ModuleUtils.saveAvailableComponentsSetting(ModuleUtils.java:245)
+	at com.renesas.cdt.synergy.contentgen.builder.SynergyProjectBuilder.generateContent(SynergyProjectBuilder.java:106)
+	at com.renesas.cdt.synergy.contentgen.builder.SynergyBuilder.fullBuild(SynergyBuilder.java:64)
+	at com.renesas.cdt.synergy.contentgen.builder.SynergyBuilder.build(SynergyBuilder.java:42)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:487)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:406)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:285)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.tasking.util 2 0 2019-02-02 10:32:12.023
+!MESSAGE Input file not found: "". Using first of 1 alternatives: "file:/C:/Renesas/Synergy/e2studio_v6.2.1_ssp_v1.5.0/internal/projectgen/arm/1.5/pinmapping/PinCfgR7FS7G27xxxxxxFC.xml"
+
+!ENTRY com.tasking.util 2 0 2019-02-02 10:32:12.422
+!MESSAGE Input file not found: "". Using first of 1 alternatives: "file:/C:/Renesas/Synergy/e2studio_v6.2.1_ssp_v1.5.0/internal/projectgen/arm/1.5/pinmapping/PinCfgR7FS7G27xxxxxxFC.xml"
